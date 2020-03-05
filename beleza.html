@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drogaria Costa</title>
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/drogaria.css" />
+
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster|Caladea&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="maqui">
+    <!--########### Início da barra de navegação ###########  -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navtoda">
+      <img src="img/logo.png" alt="" style="width:60px;" />
+      <a class="navbar-brand" href="index.html" id="nav">Drogaria Costa</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Produtos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="medicamento.html">Medicamentos</a>
+              <a class="dropdown-item" href="beleza.html">Produtos de Beleza</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="promocoes.html">Promoções</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="localizacao.html">Localização</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--########## Fim da barra de navegação ##########  -->
+
+    <header></header>
+
+    <main>
+      <div class="container-fluid">
+
+        <h1>~~~~~~~~~~ Produtos de Beleza ~~~~~~~~~~</h1>
+
+        <!-- Inicio Carrousel -->
+        <h2 id="h2bele">Cuidados para Cabelos</h2>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active"><h3>Shampoo</h3>
+              <div class="card" style="width: 15rem;" id="card">
+                <img
+                  src="img/beleza1.jpg"
+                  class="card-img-top"
+                  alt="Shampoo Pantene Micelar 200ml"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Shampoo Seda Ceramidas 325ml</h4>
+                  <h5 class="card-title">por:R$ 8,29</h5>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Comprar
+                  </button>
+                </div>
+              </div>
+
+              <div
+                class="card"
+                style="width: 15rem; margin-bottom: 40px;"
+                id="card"
+              >
+              <img
+              src="img/beleza2.jpg"
+              class="card-img-top"
+              alt="Shampoo Aussie Moist 180ml"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Shampoo Aussie Moist 180ml</h4>
+              <h5 class="card-title">por:R$ 24,37</h5>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Comprar
+              </button>
+            </div>
+          </div>
+
+              <div class="card" style="width: 15rem;" id="card">
+                <img
+                src="img/beleza3.jpg"
+                class="card-img-top"
+                alt="Shampoo Elseve Colorvive 200ml"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Shampoo Elseve Colorvive 200ml</h4>
+                <h5 class="card-title">por:R$ 10,79</h5>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Comprar
+                </button>
+              </div>
+            </div>
+
+              <div class="card" style="width: 15rem;" id="card">
+                <img
+                src="img/beleza4.jpg"
+                class="card-img-top"
+                alt="Capel Shampoo Anticaspa 120ml"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Capel Shampoo Anticaspa 120ml</h4>
+                <h5 class="card-title">por:R$ 69,21</h5>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Comprar
+                </button>
+              </div>
+            </div>
+            </div>
+
+            <div class="carousel-item"> <h3>Condicionador</h3>
+              <div class="card" style="width: 15rem;" id="card">
+                <img
+                src="img/beleza5.jpg"
+                class="card-img-top"
+                alt="Condicionador Seda Ceramidas 325ml"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Condicionador Seda Ceramidas 325ml</h4>
+                <h5 class="card-title">por:R$ 12,14</h5>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Comprar
+                </button>
+              </div>
+            </div>
+
+              <div
+                class="card"
+                style="width: 15rem; margin-bottom: 40px;"
+                id="card"
+              >
+              <img
+              src="img/beleza6.jpg"
+              class="card-img-top"
+              alt="Condicionador Aussie Moist 180ml"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Condicionador Aussie Moist 180ml</h4>
+              <h5 class="card-title">por:R$ 26,79</h5>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Comprar
+              </button>
+            </div>
+          </div>
+
+              <div class="card" style="width: 15rem;" id="card">
+                <img
+                src="img/beleza7.jpg"
+                class="card-img-top"
+                alt="Condicionador Elseve Colorvive 200ml"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Condicionador Elseve Colorvive 200ml</h4>
+                <h5 class="card-title">por:R$ 13,43</h5>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Comprar
+                </button>
+              </div>
+            </div>
+
+              <div class="card" style="width: 15rem;" id="card">
+               <img
+                  src="img/beleza8.jpg"
+                  class="card-img-top"
+                  alt="Condicionador Dove Óleo Nutrição 200ml"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Condicionador Dove Óleo Nutrição 200ml</h4>
+                  <h5 class="card-title">por:R$ 9,48</h5>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Comprar
+                  </button>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fim Carrousel -->
+
+                  <!-- Inicio Carrousel -->
+        <h6 id="especial2">Perfumes</h6>
+        <div
+          id="carouselExampleIndicators2"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators2"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li
+              data-target="#carouselExampleIndicators2"
+              data-slide-to="1"
+            ></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active"><h3>Perfume Masculino</h3>
+              <div class="card" style="width: 15rem;" id="card">
+                <img
+                  src="img/beleza9.jpg"
+                  class="card-img-top"
+                  alt="Dimitri Desodorante Colônia 100ml"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Dimitri Desodorante Colônia 100ml</h4>
+                  <h5 class="card-title">por:R$ 104,90</h5>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Comprar
+                  </button>
+                </div>
+              </div>
+
+              <div
+                class="card"
+                style="width: 15rem; margin-bottom: 40px;"
+                id="card"
+              >
+               <img
+                  src="img/beleza10.jpg"
+                  class="card-img-top"
+                  alt="Portinari Desodorante Colônia 100ml"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Portinari Desodorante Colônia 100ml</h4>
+                  <h5 class="card-title">por:R$ 129,90</h5>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Comprar
+                  </button>
+                </div>
+              </div>
+
+              <div class="card" style="width: 15rem;" id="card">
+                <img
+                src="img/beleza11.jpg"
+                class="card-img-top"
+                alt="Colônia Club 6 Class Masculino 95ml - Eudora"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Colônia Club 6 Class Masculino 95ml - Eudora</h4>
+                <h5 class="card-title">por:R$ 59,99</h5>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Comprar
+                </button>
+              </div>
+            </div>
+
+              <div class="card" style="width: 15rem;" id="card">
+                <img
+                  src="img/beleza12.jpg"
+                  class="card-img-top"
+                  alt="Animale for Men Masculino Eau de Toilette"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Animale for Men Masculino Eau de Toilette</h4>
+                  <h5 class="card-title">por:R$ 94,00</h5>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Comprar
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item"> <h3>Perfume Feminino</h3>
+              <div class="card" style="width: 15rem;" id="card">
+                <img
+                src="img/beleza13.jpg"
+                class="card-img-top"
+                alt="La Victorie Eau de Parfum 75ml"
+              />
+              <div class="card-body">
+                <h4 class="card-title">La Victorie Eau de Parfum 75ml</h4>
+                <h5 class="card-title">por:R$ 121,90</h5>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Comprar
+                </button>
+              </div>
+            </div>
+
+              <div
+                class="card"
+                style="width: 15rem; margin-bottom: 40px;"
+                id="card"
+              >
+              <img
+              src="img/beleza14.jpg"
+              class="card-img-top"
+              alt="Laguna Feminino Eau de Toilette"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Laguna Feminino Eau de Toilette</h4>
+              <h5 class="card-title">por:R$ 39,90</h5>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Comprar
+              </button>
+            </div>
+          </div>
+
+              <div class="card" style="width: 15rem;" id="card">
+                <img
+                  src="img/beleza15.jpg"
+                  class="card-img-top"
+                  alt="Lúmis Amour Deo Colônia 100ml"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Lúmis Amour Deo Colônia 100ml</h4>
+                  <h5 class="card-title">por:R$ 92,90</h5>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Comprar
+                  </button>
+                </div>
+              </div>
+
+              <div class="card" style="width: 15rem;" id="card">
+                <img
+                src="img/beleza16.jpg"
+                class="card-img-top"
+                alt="Elysée Eau de Parfum 50ml"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Elysée Eau de Parfum 50ml</h4>
+                <h5 class="card-title">por:R$ 206,90</h5>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Comprar
+                </button>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Carrousel -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel">Confirmação de Compra</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Você confirma a compra do produto selecionado ?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+        <a href="pedidonline.html"><button type="button" class="btn btn-primary">Sim</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+ 
+
+      </div>
+    </main>
+
+    <footer>
+      <!-- ############ Início do Footer ############ -->
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            Endereço:<br />Avenida Marechal Tito - Vila Maria - SP
+          </h5>
+          <p class="card-text">
+            Tel: +55 11 4002-8922 | +55 11 8922-4002 <br />
+            <a href="mailto:contato@rogariacosta.com.br" id="contato"
+              >contato@drogariacosta.com.br</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <!-- ############ Fim do Footer ############ -->
+    </footer>
+
+    <!-- Scripts JS de origem boostrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navtoda {
+  width: 100%;
+}
+
+#nav {
+  font-size: 20pt;
+}
+
+footer .card-body {
+  background-color: rgb(52, 58, 64);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+}
+
+#contato {
+  text-decoration: none;
+}
+
+#navbarSupportedContent {
+  font-size: 20px;
+  text-decoration: underline white;
+}
+
+#fundo {
+  background-image: url("../img/remedio.jpg");
+  background-size: 100%;
+  /* Faz com que a imagem não repita no
+    plano de fundo, ou seja, será exibida
+    apenas uma */
+  background-repeat: repeat;
+
+  /* Vamos fixar a imagem ao plano de fundo para ela não
+    rolar junto com o texto. Esse ficará "travada"  */
+  background-attachment: fixed;
+}
+
+#fundolocaliza {
+  background-image: url("../img/fundolocaliza.jpg");
+  background-size: 100%;
+  /* Faz com que a imagem não repita no
+    plano de fundo, ou seja, será exibida
+    apenas uma */
+  background-repeat: repeat;
+
+  /* Vamos fixar a imagem ao plano de fundo para ela não
+    rolar junto com o texto. Esse ficará "travada"  */
+  background-attachment: fixed;
+}
+
+#fundocontato {
+  background-image: url("../img/fundocontato.jpg");
+  background-size: 100%;
+  /* Faz com que a imagem não repita no
+    plano de fundo, ou seja, será exibida
+    apenas uma */
+  background-repeat: repeat;
+
+  /* Vamos fixar a imagem ao plano de fundo para ela não
+    rolar junto com o texto. Esse ficará "travada"  */
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+  margin-top: 10px;
+  border-style: solid;
+  color: white;
+  border-bottom: 20px;
+  width: 100%;
+}
+
+h2 {
+  color: white;
+  font-size: 40pt;
+  margin-right: 1135px;
+  border-bottom: solid white;
+  margin-left: 30px;
+}
+
+h6 {
+  color: white;
+  font-size: 40pt;
+  margin-right: 1135px;
+  border-bottom: solid white;
+  margin-left: 30px;
+}
+
+h3 {
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#card {
+  display: inline-block;
+  margin-left: 78px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+
+
+#carrousel {
+  width: 100%;
+}
+
+#carouselExampleIndicators {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 50px;
+  border-left: solid white;
+  border-right: solid white;
+}
+
+#carouselExampleIndicatorspromo {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 50px;
+  border-left: solid white;
+  border-right: solid white;
+  text-align: center;
+}
+
+#carouselExampleIndicators2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 50px;
+  border-left: solid white;
+  border-right: solid white;
+}
+
+h5 {
+  margin-top: 20px;
+  color: red;
+  font-size: 13pt;
+}
+
+#especial {
+  color: white;
+  font-size: 40pt;
+  margin-right: 810px;
+  border-bottom: solid white;
+  margin-left: 30px;
+}
+
+#especial2 {
+  color: white;
+  font-size: 40pt;
+  margin-right: 1050px;
+  border-bottom: solid white;
+  margin-left: 30px;
+}
+
+#localizacao {
+  color: White;
+}
+
+form {
+  width: 50%;
+  padding: 10px;
+  font-family: catamaran;
+}
+
+label {
+  /* para dispor os elementos um abaixo do outro utilizaremos o comando display block */
+  display: block;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 10px;
+  border: 0;
+  border-bottom: 1px solid silver;
+}
+
+input[type="tel"] {
+  width: 16%;
+}
+
+#sexo {
+  display: block;
+  margin-bottom: 15px;
+  font: bold;
+}
+
+select {
+  padding: 5px;
+  width: 25%;
+}
+
+select.option:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+
+textarea {
+  width: 50%;
+  height: 100px;
+  display: block;
+}
+
+input[type="submit"] {
+  width: 10%;
+  display: block;
+  border: 0;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  background-color: black;
+}
+
+#h22 {
+  color: Black;
+  font-size: 30pt;
+  border-bottom: 5px solid black;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#botaocon {
+  background-color: black;
+  border: none;
+  margin-top: 10px;
+}
+
+#maqui {
+  background-image: url("../img/fundobeleza.jpg");
+  background-size: 100%;
+  /* Faz com que a imagem não repita no
+  plano de fundo, ou seja, será exibida
+  apenas uma */
+  background-repeat: repeat;
+
+  /* Vamos fixar a imagem ao plano de fundo para ela não
+  rolar junto com o texto. Esse ficará "travada"  */
+  background-attachment: fixed;
+}
+
+#h2bele {
+  color: white;
+  font-size: 40pt;
+  margin-right: 720px;
+  border-bottom: solid white;
+  margin-left: 30px;
+}
+
+#promofundo {
+  background-image: url("../img/fundopromo.jpg");
+  background-size: 100%;
+  /* Faz com que a imagem não repita no
+  plano de fundo, ou seja, será exibida
+  apenas uma */
+  background-repeat: repeat;
+
+  /* Vamos fixar a imagem ao plano de fundo para ela não
+  rolar junto com o texto. Esse ficará "travada"  */
+  /* background-attachment: fixed; */
+}
+
+#promo {
+  text-decoration: line-through;
+}
+
+#promomo {
+  color: white;
+  font-size: 40pt;
+  margin-right: 1240px;
+  border-bottom: solid white;
+  margin-left: 30px;
+}
+
+#indexfundo {
+  background-size: 100%;
+  background-image: url("../img/farma.jpg");
+  /* Faz com que a imagem não repita no
+  plano de fundo, ou seja, será exibida
+  apenas uma */
+  background-repeat: repeat;
+
+  /* Vamos fixar a imagem ao plano de fundo para ela não
+  rolar junto com o texto. Esse ficará "travada"  */
+  /* background-attachment: fixed; */
+  background-color: black;
+}
+
+#home1 {
+  color: white;
+  padding: 40px;
+
+  text-align: justify;
+}
+
+#imgHome {
+  text-align: center;
+}
+
+#imgHome img {
+  width: 80%;
+  height: auto;
+  margin: 0 10px;
+  transition: ease 1s;
+  opacity: 90%;
+  margin-bottom: 20px;
+}
+
+#imgHome img:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+#url {
+  text-align: center;
+  margin-bottom: 20px;
+}
